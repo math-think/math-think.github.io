@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on my blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on my blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fibonacci numbers and determinant</title>
+      <link>/posts/fibonacci-numbers-and-determinant/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0800</pubDate>
+      <guid>/posts/fibonacci-numbers-and-determinant/</guid>
+      <description>Fibonacci sequence is a sequence as
+\[1, 2, 3, 5, 8, 13, 21, 35&amp;hellip;\]
+it satisfies: \(F_n = F_{n - 1} + F_{n - 2}(n \ge 3), F_1 = 1, F_2 = 2\)
+Proof the Fibonacci numbers \(F_n\) can be get from the determinant \[ F_n = {\begin{vmatrix} 1 &amp;amp; -1 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\ 1 &amp;amp; 1 &amp;amp; -1 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; 1 &amp;amp; 1 &amp;amp; -1 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots &amp;amp; \vdots &amp;amp; \vdots\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 1 &amp;amp; 1 &amp;amp; -1\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 1 &amp;amp; 1\\ \end{vmatrix} }; \]</description>
+    </item>
+    <item>
+      <title>Exercises of determinant</title>
+      <link>/posts/exercises-of-determinant/</link>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 +0800</pubDate>
+      <guid>/posts/exercises-of-determinant/</guid>
+      <description>Suppose \(n\ge 2\)，show that if the elements of a \(n \times n\) matrix \(A\) are 1 or -1, then \(|A|\) must be an even number.
+Consider the symmetries of \(a_{1i}\), \(a_{2j}\) and \(a_{1j}\), \(a_{2i}\), the value of corresponding determinant of the \(2 \times 2\) matrix must be an even number, so the n-order determinant must be an even number.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+#+OPTIONS: author:nil ^:{}
+#+HUGO_FRONT_MATTER_FORMAT: YAML
+#+HUGO_BASE_DIR: ~/blog/
+#+HUGO_SECTION: posts
+#+DATE:<2023-11-26 Sun>
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: Algebra
+#+HUGO_DRAFT: false
+#+TITLE: Exercises of determinant
+Suppose $n\ge 2$，show that if the elements of a $n \times n$ matrix $A$ are 1 or -1, then $|A|$ must be an even number.
+#+BEGIN_PROOF
+Consider the symmetries of $a_{1i}$, $a_{2j}$ and $a_{1j}$, $a_{2i}$, the value of corresponding determinant of the $2 \times 2$ matrix must be an even number, so the n-order determinant must be an even number.
+#+END_PROOF

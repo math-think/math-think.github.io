@@ -1,0 +1,52 @@
+baseurl = ""
+title = "my blog"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+publishDir = "docs"
+
+[Author]
+  name = "math-think"
+
+[Params]
+  description = "math-think's blog" # Site description. Used in meta description
+  copyright = "math-think" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  # schema = true # Enable Schema
+
+  readmore = false # Show "Read more" button in list if true
+  # authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories"] # Order of post meta information
+  # mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+#   dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+#   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+#   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = false
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  github = "math-think"
+  email = "math-think@proton.me"
+
+[Params.widgets.search]
+  cached = false # activate cache if true
+  url = "https://duckduckgo.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
