@@ -1,0 +1,38 @@
+#+OPTIONS: author:nil ^:{}
+#+HUGO_FRONT_MATTER_FORMAT: YAML
+#+HUGO_BASE_DIR: ~/blog/
+#+HUGO_SECTION: posts
+#+DATE:<2023-12-02 Sat>
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: Algebra
+#+HUGO_DRAFT: false
+#+TITLE: Exercises of n-dimensional vector space
+1. Suppose the $s \times n$ matrix on field $K$
+   \[
+   A =
+   {\begin{pmatrix}
+   a_{11} & a_{12} & \cdots & a_{1n}\\
+   a_{21} & a_{22} & \cdots & a_{2n}\\
+   \vdots & \vdots &  & \vdots\\
+   a_{s1} & a_{s2} & \cdots & a_{sn}\\
+   \end{pmatrix}}
+   \]
+   satisfies $s \le n$, and
+   $$2|a_{ii}|>\sum_{j=1}^{n}{|a_{ij}|},\ \ (i = 1, 2, \cdots, s),$$
+   proof: rank of $A$'s row vector group, $\gamma_{1}$, $\gamma_{2}$, \cdots, $\gamma_{s}$, equals to $s$.
+
+   Let
+   \[
+   A' =
+   {\begin{pmatrix}
+   a_{11} & a_{12} & \cdots & a_{1s}\\
+   a_{21} & a_{22} & \cdots & a_{2s}\\
+   \vdots & \vdots &  & \vdots\\
+   a_{s1} & a_{s2} & \cdots & a_{ss}\\
+   \end{pmatrix}}
+   \]
+   We can know $\det{A'} \ne 0$ because
+   $$|a_{ii}|>\sum_{j=1 \\j\ne i}^{s}{|a_{ij}|},\ \ (i = 1, 2, \cdots, s),$$
+   so rank of $A'$'s row vector group equals to s, appending the row vectors, we can show that rank of $A$'s row vector group equals to s.
+
