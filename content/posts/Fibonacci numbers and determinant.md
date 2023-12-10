@@ -1,8 +1,8 @@
 +++
 title = "Fibonacci numbers and determinant"
 date = 2023-11-29T00:00:00+08:00
-lastmod = 2023-11-30T14:12:14+08:00
-tags = ["Algebra"]
+lastmod = 2023-12-10T08:27:38+08:00
+tags = ["Advanced Algebra"]
 draft = false
 toc = true
 +++

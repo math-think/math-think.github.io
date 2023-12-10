@@ -5,7 +5,7 @@
 #+DATE:<2023-11-26 Sun>
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: Algebra
+#+HUGO_TAGS: "Advanced Algebra"
 #+HUGO_DRAFT: false
 #+TITLE: Exercises of determinant
 1. Suppose $n\ge 2$，show that if the elements of a $n \times n$ matrix $A$ are 1 or -1, then $|A|$ must be an even number.
