@@ -1,0 +1,22 @@
+#+OPTIONS: author:nil ^:{}
+#+HUGO_FRONT_MATTER_FORMAT: YAML
+#+HUGO_BASE_DIR: ~/blog/
+#+HUGO_SECTION: posts
+#+DATE:<2024-01-21 Sun>
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: "Abstract Algebra"
+#+HUGO_DRAFT: false
+#+TITLE: 群在集合上的作用
+* 例题
+1. 设群 $G$ 作用在集合 \Sigma 上. 令 $t$ 表示 \Sigma 在 $G$ 作用下的轨道个数,
+   对任意 $g \in G$, $f(g)$ 表示 \varepsilon 在 $g$ 作用下的不动点个数. 试证
+   $$\sum_{g \in G}{f(g)} = t|G|.$$
+   这就是说, $G$ 的每个元素在 \Sigma 上作用平均使得 $t$ 个文字不动.
+
+   证明:
+
+   $$\sum_{g \in G}f(g) = \sum_{a \in \Sigma}|G_{a}| = \sum_{a \in \Sigma}\frac{|G|}{|[a]|} = \sum_{i = 1}^t\sum_{j = 1}^{|[a_i]|}\frac{|G|}{|[a_i]|} = t|G|.$$
+
+   证毕.
+

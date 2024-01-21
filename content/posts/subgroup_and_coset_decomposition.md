@@ -1,7 +1,7 @@
 +++
 title = "子群和陪集分解"
 date = 2023-12-10T00:00:00+08:00
-lastmod = 2023-12-16T17:13:22+08:00
+lastmod = 2023-12-16T18:47:22+08:00
 tags = ["Abstract Algebra"]
 draft = false
 toc = true
@@ -73,3 +73,16 @@ toc = true
     故 \\(g = gxx^{-1} \in G\_1G\_{-1}\\).
 
     若有 \\(g \not= 1, g \in G\_1, g \in G\_{-1}\\), 则 \\(g\_{-1} = g, g^2 = 1\\), 而 \\(G\\) 是奇数阶群, 不存在偶数阶元素, 故矛盾, 故 \\(G\_1 \cap G\_{-1} = 1\\)
+
+5.  设 \\(G\\) 是有限阿贝尔群,试证:\\(g\\) 对应到 \\(g^k\\) 是 \\(G\\) 的一个自同构当且仅当 \\(k\\) 和 \\(|G|\\) 互素.
+
+    证明:
+    显然这是一个自同态, 仅需证明双射, 又因 \\(G\\) 是有限群, 故仅需证明单射. 记这个映射为 \\(f\\), 则
+
+    \\(\Rightarrow\\)
+    f 是单射, 则 \\(\forall g, g\prime \in G, g \neq g\prime \Rightarrow g^k \neq (g\prime)^{k}\\), 特别的, \\(\forall g \not= 1 \in G, g^k \not= 1\\), 即 \\(k \not= 0(mod |g|)\\),
+
+    设 \\((k, |g|) = p > 1\\), 则 \\(k = pq, |g| = pr, (g^r)^p = 1\\), (g\\(^r)^k = (g^r)^{pq} = 1\\), 与单射矛盾, 故 \\((k, |g|) = 1\\), 因此 \\(k 和 |G|\\) 互素.
+
+    \\(\Leftarrow\\)
+    \\(k 和 |G| 互素\\), 则 \\(g^k = (g\prime)^k \Rightarrow g^{-1}g\prime = 1 \Rightarrow g = g\prime\\), 故 \\(f\\) 为单射.

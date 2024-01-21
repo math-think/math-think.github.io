@@ -1,7 +1,7 @@
 +++
 title = "正规子群, 商群和同态定理"
 date = 2023-12-20T00:00:00+08:00
-lastmod = 2023-12-21T23:44:50+08:00
+lastmod = 2023-12-22T00:10:24+08:00
 tags = ["Abstract Algebra"]
 draft = false
 toc = true
@@ -40,3 +40,10 @@ toc = true
     \\(aba^{-1}b^{-1} = a(ba^{-1}b^{-1}) = aa\prime \in M\\),
     同理 \\(aba^{-1}b^{-1} = (aba^{-1})b^{-1} = b\prime b^{-1} \in N\\),
     故 \\(aba^{-1}b^{-1} = 1, ab = ba\\). 证毕.
+
+4.  设 \\(N \lhd G\\), \\(g\\) 是群 \\(G\\) 的任意一个元素. 如果 \\(g\\) 的阶和 \\(|G/N|\\) 互素, 则 \\(g \in N\\).
+
+    证明:
+
+    构造从 \\(G\\) 到 \\(G/N\\) 的同态 \\(f\\), \\(f(g) = \overline{g}\\), 则 \\(g\\) 的阶等于 \\(\overline{g}\\) 的阶,
+    而 \\(\overline{g}\\) 的阶必定是 \\(|G/N|\\) 的因子, 故 \\(\overline{g} = \overline{1}\\), 即 \\(g \in N\\).
