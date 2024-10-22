@@ -14,7 +14,9 @@
    设 $H \leq G, [G:H] = 2$, 则
    - $\forall g \in H, gH = H = Hg$
 
-   - $\forall g \notin H, h \in H, gh \notin H, H 的指数为二, 只有两个陪集, 故 gH = G \setminus H, Hg = G \setminus H, 故 gH = G \setminus H = Hg$
+   - $\forall g \notin H, h \in H, gh \notin H, H$ 的指数为二, 只有两个陪集,
+
+     故 $gH = G \setminus H, Hg = G \setminus H$, 故 $gH = G \setminus H = Hg$
 
    因此, H 是正规子群.
 

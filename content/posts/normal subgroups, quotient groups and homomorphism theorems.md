@@ -1,7 +1,7 @@
 +++
 title = "正规子群, 商群和同态定理"
 date = 2023-12-20T00:00:00+08:00
-lastmod = 2023-12-22T00:10:24+08:00
+lastmod = 2024-01-23T23:42:50+08:00
 tags = ["Abstract Algebra"]
 draft = false
 toc = true
@@ -14,7 +14,9 @@ toc = true
 
     -   \\(\forall g \in H, gH = H = Hg\\)
 
-    -   \\(\forall g \notin H, h \in H, gh \notin H, H 的指数为二, 只有两个陪集, 故 gH = G \setminus H, Hg = G \setminus H, 故 gH = G \setminus H = Hg\\)
+    -   \\(\forall g \notin H, h \in H, gh \notin H, H\\) 的指数为二, 只有两个陪集,
+
+        故 \\(gH = G \setminus H, Hg = G \setminus H\\), 故 \\(gH = G \setminus H = Hg\\)
 
     因此, H 是正规子群.
 
@@ -46,4 +48,6 @@ toc = true
     证明:
 
     构造从 \\(G\\) 到 \\(G/N\\) 的同态 \\(f\\), \\(f(g) = \overline{g}\\), 则 \\(g\\) 的阶等于 \\(\overline{g}\\) 的阶,
-    而 \\(\overline{g}\\) 的阶必定是 \\(|G/N|\\) 的因子, 故 \\(\overline{g} = \overline{1}\\), 即 \\(g \in N\\).
+    而 \\(\overline{g}\\) 的阶必定是 \\(|G/N|\\) 的因子, 故 \\(\overline{g} = \overline{1}\\), 即 \\(g \in N\\). 证毕.
+
+5.  如果 \\(G/C(G)\\) 是循环群, 则 \\(G\\) 是阿贝尔群.
