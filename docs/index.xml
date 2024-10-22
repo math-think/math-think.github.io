@@ -14,7 +14,7 @@
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0800</pubDate>
       <guid>/posts/fibonacci-numbers-and-determinant/</guid>
       <description>Fibonacci sequence is a sequence as
-\[1, 2, 3, 5, 8, 13, 21, 35&amp;hellip;\]
+\[1, 2, 3, 5, 8, 13, 21, 34, \cdots,\]
 it satisfies: \(F_n = F_{n - 1} + F_{n - 2}(n \ge 3), F_1 = 1, F_2 = 2\)
 Proof the Fibonacci numbers \(F_n\) can be get from the determinant \[ F_n = {\begin{vmatrix} 1 &amp;amp; -1 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\ 1 &amp;amp; 1 &amp;amp; -1 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; 1 &amp;amp; 1 &amp;amp; -1 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots &amp;amp; \vdots &amp;amp; \vdots\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 1 &amp;amp; 1 &amp;amp; -1\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; 1 &amp;amp; 1\\ \end{vmatrix} }; \]</description>
     </item>

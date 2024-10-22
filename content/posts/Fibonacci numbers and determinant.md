@@ -1,7 +1,7 @@
 +++
 title = "Fibonacci numbers and determinant"
 date = 2023-11-29T00:00:00+08:00
-lastmod = 2023-11-30T01:10:21+08:00
+lastmod = 2023-11-30T14:12:14+08:00
 tags = ["Algebra"]
 draft = false
 toc = true
@@ -9,7 +9,7 @@ toc = true
 
 Fibonacci sequence is a sequence as
 
-\\[1, 2, 3, 5, 8, 13, 21, 35...\\]
+\\[1, 2, 3, 5, 8, 13, 21, 34, \cdots,\\]
 
 it satisfies: \\(F\_n = F\_{n - 1} + F\_{n - 2}(n \ge 3), F\_1 = 1, F\_2 = 2\\)
 

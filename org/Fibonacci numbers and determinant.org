@@ -10,7 +10,7 @@
 #+TITLE: Fibonacci numbers and determinant
 Fibonacci sequence is a sequence as
 
-$$1, 2, 3, 5, 8, 13, 21, 35...$$
+$$1, 2, 3, 5, 8, 13, 21, 34, \cdots,$$
 
 it satisfies: $F_n = F_{n - 1} + F_{n - 2}(n \ge 3), F_1 = 1, F_2 = 2$
 
