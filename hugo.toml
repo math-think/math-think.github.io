@@ -3,7 +3,6 @@ title = "my blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
-#publishDir = "docs"
 
 [Author]
   name = "math-think"
@@ -20,10 +19,10 @@ theme = "mainroad"
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
   # mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
-#   dateformat = "2006-01-02" # Change the format of dates
+  # dateformat = "2006-01-02" # Change the format of dates
   mathjax = true # Enable MathJax
 #   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-#   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  # mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = false
 
 [Params.sidebar]
