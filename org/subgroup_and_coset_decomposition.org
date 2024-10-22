@@ -1,0 +1,43 @@
+#+OPTIONS: author:nil ^:{}
+#+HUGO_FRONT_MATTER_FORMAT: YAML
+#+HUGO_BASE_DIR: ~/blog/
+#+HUGO_SECTION: posts
+#+DATE:<2023-12-10 Sun>
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: "Abstract Algebra"
+#+HUGO_DRAFT: false
+#+TITLE: 子群和陪集分解
+* 例题
+1. $A$, $B$ 是群 $G$ 的两个子群. 试证:  $$AB \le G \text{ 当且仅当 } AB = BA.$$
+   证明:
+
+   $\Rightarrow$:
+   $\forall a \in A, b \in B, ab \in AB$, $AB$ 是个群, 所以 $(ab)^{-1} = b^{-1}a^{-1} \in AB$,
+   同时 $b^{-1}a^{-1} \in BA$,
+   
+   所以 $AB \subset BA$. 又因为 $\forall ba \in BA$, $(ba)^{-1} = a^{-1}b^{-1} \in AB$, 所以 $BA \subset AB$,
+
+   故 $AB = BA$
+
+   $\Leftarrow$:
+   对于 $a, a^{'} \in A, b, b^{'} \in B, ab \in AB, a^{'}b^{'} \in AB$,
+   
+   $AB = BA$, 则 $\exists$ $a^{''} \in A, b^{''} \in B, a^{''}b^{''} = ba^{'}$,
+   $aba^{'}b^{'} = aa^{''}b^{''}b^{'} \in AB$,
+
+   所以 $AB$ 运算封闭, $1 \in AB$ 显然, 可逆易证, 故 $AB \le G$
+
+2. 令 $G=GL(n, C)$, $P$ 是主对角线上的元素均为 $1$ 的 $n \times n$ 上三角矩阵.
+   确定 $N_G(P)$, $C_G(P)$ 和 $P$ 的中心 $C(P)$.
+
+   $N_G(P) = \{g|g^{-1}Pg = P\}$, 考虑一个初等矩阵 $g$ 的三种情况
+   1) 倍乘. 显然 $g \in N_G(P)$.
+
+   2) 交换. 对于一个交换型初等矩阵, 根据左行右列的原则, 显然不满足 $\forall p \in P, g^{-1}pg \in P$
+
+   3) 倍加. 当非零元在主对角线下方时, 不满足 $\forall p \in P, g^{-1}pg \in P$.
+      当非零元在主对角线上方时, $\forall p \in P, g^{-1}pg \in P$.
+   故 $N_G(P)$ 由所有的可逆上三角矩阵组成.
+   类似可得, $C_G(P) = E$, $C_P = E$.
+
