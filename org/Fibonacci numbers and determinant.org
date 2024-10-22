@@ -5,7 +5,7 @@
 #+DATE:<2023-11-29 Wed>
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: Algebra
+#+HUGO_TAGS: "Advanced Algebra"
 #+HUGO_DRAFT: false
 #+TITLE: Fibonacci numbers and determinant
 Fibonacci sequence is a sequence as

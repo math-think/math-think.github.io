@@ -5,7 +5,7 @@
 #+DATE:<2023-12-02 Sat>
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: Algebra
+#+HUGO_TAGS: "Advanced Algebra"
 #+HUGO_DRAFT: false
 #+TITLE: Exercises of n-dimensional vector space
 1. Suppose the $s \times n$ matrix on field $K$

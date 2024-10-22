@@ -1,8 +1,8 @@
 +++
 title = "Exercises of determinant"
 date = 2023-11-26T00:00:00+08:00
-lastmod = 2023-11-30T22:07:08+08:00
-tags = ["Algebra"]
+lastmod = 2023-12-10T08:28:06+08:00
+tags = ["Advanced Algebra"]
 draft = false
 toc = true
 +++
