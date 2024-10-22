@@ -1,0 +1,41 @@
+#+OPTIONS: author:nil ^:{}
+#+HUGO_FRONT_MATTER_FORMAT: YAML
+#+HUGO_BASE_DIR: ~/blog/
+#+HUGO_SECTION: posts
+#+DATE:<2024-07-11 Thu>
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: "Abstract Algebra"
+#+HUGO_DRAFT: false
+#+LATEX_HEADER: \usepackage{amsfonts}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{amsthm}
+#+TITLE: 西罗定理
+* 定义
+1. 设 \(G\) 为 \(p^rn\) 阶群, 其中 \(p\) 为素数, \(r \geqslant\), \(p \nmid n\),
+   则 \(G\) 的每个 \(p^r\) 阶子群均叫做 \(G\) 的 *西罗* (Sylow) \(p-\) *子群*.
+* 定理
+
+1. 设 \(G\) 是有限群, \(p\) 为素数, \(r\) 是正整数, \(p^r\) 是 \(|G|\) 的因子, 用
+   \(N(p^r)\) 表示 \(G\) 的 \(p^r\) 阶子群的个数, 则
+   \(N(p^r) \equiv 1 \pmod{p}\). 特别地, 若 \(p^r\big||G|\), 则 \(G\) 至少存在一个
+   \(p^r\) 阶子群.
+2. *西罗(Sylow)定理* 设 \(G\) 为有限群, 则
+   1) 对 \(|G|\) 的每个素因子 \(p\), 均存在 \(G\) 的西罗 \(p-\)子群;
+   2) \(G\) 的西罗 \(p-\) 子群彼此共轭;
+   3) \(G\) 的西罗 \(p-\) 子群的个数 \(\equiv\ 1 \pmod{p}\);
+   4) 设 \(P\) 为 \(G\) 的一个西罗 \(p-\) 子群, 则 \(G\) 的西罗 \(p-\) 子群的个
+      数为 \([G:N_G(P)]\).
+
+* 例题
+
+1. 令 \(G\) 是集合 \(\Sigma\) 上的置换群, \(P\) 是 \(G\) 的西罗 \(p-\) 子群,
+   \(a \in \Sigma\), 如果 \(p^m\) 整除 \(|Ga|\), 则 \(p^m\) 整除 \(Pa\).
+
+   证明:
+
+   \(P_a = P \cap G_a\), 由轨道公式可知
+   \[\frac{|G|}{|P_a|} = \frac{|Ga||G_a|}{|P_a|} = [G:P]|Pa|\]
+
+   \(p\) 与 \([G:P]\) 互质, 故 \(p^m \big{|} Pa\).
