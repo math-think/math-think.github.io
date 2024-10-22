@@ -1,7 +1,7 @@
 +++
 title = "正规子群, 商群和同态定理"
 date = 2023-12-20T00:00:00+08:00
-lastmod = 2023-12-20T23:55:01+08:00
+lastmod = 2023-12-21T23:44:50+08:00
 tags = ["Abstract Algebra"]
 draft = false
 toc = true
@@ -32,3 +32,11 @@ toc = true
     故 \\(\exists m \in M, f(g) = f(m)\\), 而 \\(f(gm^{-1}) = f(m)f(m^{-1}) = 1\_H\\), 故 \\(g = gm^{-1}m \in KM\\), 即 \\(f^{-1}(f(M)) \subset KM\\).
 
     综上, \\(f^{-1}(f(M)) = KM\\), 证毕.
+
+3.  设 \\(M\\) 和 \\(N\\) 分别是群 \\(G\\) 的正规子群. 如果 \\(M \cup N = \\{1\\}\\), 则对任意 \\(a \in M, b \in N, ab = ba\\).
+
+    证明:
+
+    \\(aba^{-1}b^{-1} = a(ba^{-1}b^{-1}) = aa\prime \in M\\),
+    同理 \\(aba^{-1}b^{-1} = (aba^{-1})b^{-1} = b\prime b^{-1} \in N\\),
+    故 \\(aba^{-1}b^{-1} = 1, ab = ba\\). 证毕.
