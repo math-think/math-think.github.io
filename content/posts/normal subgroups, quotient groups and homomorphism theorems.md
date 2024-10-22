@@ -1,7 +1,7 @@
 +++
 title = "正规子群, 商群和同态定理"
 date = 2023-12-20T00:00:00+08:00
-lastmod = 2024-01-23T23:42:50+08:00
+lastmod = 2024-01-27T17:19:11+08:00
 tags = ["Abstract Algebra"]
 draft = false
 toc = true
@@ -20,7 +20,7 @@ toc = true
 
     因此, H 是正规子群.
 
-2.  设 \\(f: G \rightarrow H\\) 是群同态, \\(M \leq G\\) 试证 \\(f^{-1}(f(M)) = KM\\), 这里 \\(K = \text{Ker} f\\)
+2.  设 \\(f: G \rightarrow H\\) 是群同态, \\(M \leq G\\) 试证 \\(f^{-1}(f(M)) = KM\\), 这里 \\(K = \ker f\\)
 
     证明:
 
@@ -51,3 +51,9 @@ toc = true
     而 \\(\overline{g}\\) 的阶必定是 \\(|G/N|\\) 的因子, 故 \\(\overline{g} = \overline{1}\\), 即 \\(g \in N\\). 证毕.
 
 5.  如果 \\(G/C(G)\\) 是循环群, 则 \\(G\\) 是阿贝尔群.
+
+    证明:
+
+    考虑从 \\(G/C(G)\\) 到 \\(G\\) 的同态 \\(f(gC(G)) = g\\),
+    循环群必是交换群, 则 \\(gh = f(gC(G))f(hC(G)) = f(gC(G)hC(G)) = f(hC(G)gC(G)) = f(hC(G))f(gC(G)) = hg\\),
+    故 \\(G\\) 是交换群.
