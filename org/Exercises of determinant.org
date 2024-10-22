@@ -12,3 +12,23 @@
    #+BEGIN_PROOF
    Consider the symmetries of $a_{1i}$, $a_{2j}$ and $a_{1j}$, $a_{2i}$, the value of corresponding determinant of the $2 \times 2$ matrix must be an even number, so the n-order determinant must be an even number.
    #+END_PROOF
+2. Does $f(x,y,z)=x^3+y^3+z^3-3xyz$ has a factor which is of degree 1? if yes, show it.
+   
+   \[
+   x^3+y^3+z^3-3xyz =
+   {\begin{vmatrix}
+   x & y & z\\
+   y & z & x\\
+   z & x & y
+   \end{vmatrix}}
+   \]
+   this determinant can be transformed to
+   \[
+   (x+y+z) \times
+   {\begin{vmatrix}
+   1 & 1 & 1\\
+   y & z & x\\
+   z & x & y
+   \end{vmatrix}}
+   \]
+  so $(x+y+z)$ is the factor of degree 1.
