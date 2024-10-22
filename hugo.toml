@@ -3,7 +3,7 @@ title = "my blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
-publishDir = "docs"
+#publishDir = "docs"
 
 [Author]
   name = "math-think"
