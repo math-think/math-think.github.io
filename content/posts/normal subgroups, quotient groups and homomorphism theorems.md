@@ -1,7 +1,7 @@
 +++
 title = "正规子群, 商群和同态定理"
 date = 2023-12-20T00:00:00+08:00
-lastmod = 2024-01-27T17:19:11+08:00
+lastmod = 2024-03-27T22:40:32+08:00
 tags = ["Abstract Algebra"]
 draft = false
 toc = true
@@ -14,9 +14,10 @@ toc = true
 
     -   \\(\forall g \in H, gH = H = Hg\\)
 
-    -   \\(\forall g \notin H, h \in H, gh \notin H, H\\) 的指数为二, 只有两个陪集,
+    -   \\(\forall g \notin H, gH \neq H, Hg \neq H, H\\) 的指数为二, 只有两个陪集,
+        记为 \\(\\{H, M\\}\\)
 
-        故 \\(gH = G \setminus H, Hg = G \setminus H\\), 故 \\(gH = G \setminus H = Hg\\)
+        故 \\(gH = M, Hg = M\\), 即 \\(gH = Hg\\)
 
     因此, H 是正规子群.
 
